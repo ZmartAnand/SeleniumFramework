@@ -28,6 +28,7 @@ public class ClickAndHold {
 		act.clickAndHold(Hold).perform();
 		Thread.sleep(2000);
 		act.release(Hold).perform();
+		act.release(Hold).perform();
 		
 		
 
